@@ -21,7 +21,7 @@
 
 ## Overview
 
-This project focuses on scraping famous quotes and their associated details from [goodreads](https://www.goodreads.com/quotes), performing exploratory data analysis to generate insights and visualize them with the help of Power BI.
+This project focuses on scraping famous quotes and their associated details from [goodreads][website_link], performing exploratory data analysis to generate insights and visualize them with the help of Power BI.
 
 The repository directory structure is as follows:
 
@@ -97,7 +97,7 @@ From this graphic we can observe a significant reduce in the time of scraping du
 
 If you have any doubts, queries or, suggestions then, please connect with me in any of the following platforms:
 
-[![Linkedin Badge][linkedinbadge]][linkedin] [![Twitter Badge](https://img.shields.io/badge/-@quantumudit-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/quantumudit)][twitter]
+[![Linkedin Badge][linkedinbadge]][linkedin] [![Twitter Badge][twitterbadge]][twitter]
 
 If you like my work then, you may support me at Patreon:
 
@@ -121,7 +121,7 @@ This license allows reusers to distribute, remix, adapt, and build upon the mate
 
 <!-- External Links -->
 
-[website_link]: https://www.accommodationforstudents.com/search-results?location=any&beds=0&searchType=any&price=&lettingPeriod=academicYear&geo=false&page=1
+[website_link]: https://www.goodreads.com/quotes
 
 <!-- Profile Links -->
 
