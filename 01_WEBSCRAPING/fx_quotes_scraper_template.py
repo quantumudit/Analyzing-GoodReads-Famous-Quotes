@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import datetime
+from datetime import datetime, timezone
 
 all_quotes = []
 all_page_links = []
@@ -34,7 +34,8 @@ def scrape_content(page_url: str) -> None:
     
     print(f'Scraping quote details from: {page_url}')
     
-    current_utc_timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%d-%b-%Y %H:%M:%S')
+    utc_timezone = timezone.utc
+    current_utc_timestamp = datetime.now(utc_timezone).strftime('%d-%b-%Y %H:%M:%S')
     
     response = SESSION.get(page_url, headers=HEADERS)
     
